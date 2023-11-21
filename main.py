@@ -11,9 +11,9 @@ chrome_options.add_argument('--disable-dev-shm-usage')
 prefs = {"plugins.always_open_pdf_externally": False}
 chrome_options.add_experimental_option("prefs", prefs)
 
-sender_email = "parekh.bhavinkumar.p@gmail.com"
-rec_email = "bhavinparekh1995@gmail.com"
-password = "2511Bh@vin"
+sender_email = "--write--"
+rec_email = "--write--"
+password = "--write--"
 msg = ""
 
 server = smtplib.SMTP('smtp.gmail.com', 587)
